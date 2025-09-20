@@ -1,0 +1,23 @@
+{
+  "type": "layout",
+  "direction": "vertical",
+  "gap": "10px",
+  "children": [
+    {
+      "type": "visualization",
+      "mark": "line",
+      "encoding": {
+        "x": "time",
+        "y": "sales"
+      }
+    },
+    {
+      "type": "visualization",
+      "mark": "area",
+      "encoding": {
+        "x": "month",
+        "y": "revenue"
+      }
+    }
+  ]
+}

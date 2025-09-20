@@ -1,0 +1,9 @@
+{
+  "type": "visualization",
+  "mark": "bar",
+  "encoding": {
+    "x": "category",
+    "y": "value",
+    "color": "region"
+  }
+}
